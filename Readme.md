@@ -7,7 +7,7 @@
    ### 사용 툴
 
    1. 프론트
-      - htel , css , JS , React ,JQuery, 
+      - html , css , JS , React ,JQuery, 
    2. 서버
       1. sevelet , spring - **3.9.11 RELEASE**(maven - **3.6.2**), tomcat(**8.5**)
    3. 백
@@ -69,7 +69,7 @@
 >
    >   
 >
-   >   - ![](.\ReadmeIMG1.png)
+   >   - ![ReadmeIMG1](Readme.assets/ReadmeIMG1.png)
 >
    >   
 >
@@ -77,14 +77,14 @@
 >
    >   - servers에서 Tomcat 을 실행해준다
 >
-   >     ![](.\ReadmeIMG2.png)
+   >     ![ReadmeIMG2](Readme.assets/ReadmeIMG2.png)
    >
    >   - 다음과 같은 페이지가 나오는데 HTTP/1.1이 8080 , AJP가 8009으로 되있다면 윗 사진과 같이 변경한다.
    >
    >   - [해결](https://coding-factory.tistory.com/13)  사이트
-   
+
 코드 실행 시 한글 깨짐 현상이 발생 -- 2020.01.10
-   
+
    > - 상황
    >   - 코드 실행
    > - 문제
