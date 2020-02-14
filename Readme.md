@@ -9,7 +9,7 @@
    1. 프론트
       - html , css , JS , React ,JQuery, 
    2. 서버
-      1. sevelet , spring - **3.9.11 RELEASE**(maven - **3.6.2**), tomcat(**8.5**)
+      1. servlet , spring - **3.9.11 RELEASE**(maven - **3.6.2**), tomcat(**8.5**)
    3. 백
       1. RDBMS(oracle db)  - ora11g_xe
 
@@ -19,7 +19,7 @@
    2. login.html
    3. join.html
    4. content.html
-   5. board.htm
+   5. board.html
 
    
 
