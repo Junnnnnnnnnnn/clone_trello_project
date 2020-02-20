@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.clone_trello.CT.service.LoginService;
+import com.clone_trello.CT.service.SignUpService;
 
 @Controller
 public class TrelloController {
@@ -24,6 +25,9 @@ public class TrelloController {
 	
 	@Autowired
 	LoginService loginService;
+	
+	@Autowired
+	SignUpService signUpService;
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
@@ -40,6 +44,17 @@ public class TrelloController {
 		else {
 			return "resultFalse";
 		}
+	}
+	
+	@RequestMapping(value = "/signUp", method = RequestMethod.GET)
+	public String SignUp() {
+		return "signUp";
+	}
+	@RequestMapping(value = "/signUpResult", method = RequestMethod.GET)
+	public String SignUp(@RequestParam(value = "id" , required = false)String id,@RequestParam(value = "PW" , required = false)String pw) {
 		
-	}	
+		signUpService.InsertInfo(id, pw);
+		return "result";
+	}
+	
 }

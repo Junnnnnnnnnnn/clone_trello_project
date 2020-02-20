@@ -14,5 +14,6 @@
 	<input type="text" name="PW">
 	<input type="submit">
 </form>
+	<a href="./signUp">SignUp</a>
 </body>
 </html>
